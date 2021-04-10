@@ -1,0 +1,98 @@
+
+
+<div class="container" style="margin-top: 20px;">
+    <h3>Alterar pessoa</h3>
+    <hr>
+    <form class="form-row" (ngSubmit)="alterar()" [formGroup]="cadastroFormGrup">
+        <div class="form-group col-md-9">
+          <label for="nome">Nome</label>
+          <input class="form-control" id="nome" type="text" 
+                placeholder="Nome (requido)" formControlName="nome" [(ngModel)]="pessoa.nome"
+                    [ngClass]="{'is-invalid': cadastroFormGrup.get('nome').errors 
+                        && (cadastroFormGrup.get('nome').touched 
+                            || cadastroFormGrup.get('nome').dirty)}">
+            <span class="text-danger" 
+                *ngIf="cadastroFormGrup.get('nome').errors 
+                    && (cadastroFormGrup.get('nome').touched 
+                        || cadastroFormGrup.get('nome').dirty)">
+                <p>Preencha o campo Nome</p>
+            </span>
+        </div>
+
+        <div class="form-group col-md-3">
+            <label for="dataNascimento">Data de Nascimento</label>
+            <input type="text" class="form-control" id="dataNascimento"
+             [(ngModel)]="pessoa.dataNascimento" type="date" 
+                placeholder="Data de nascimento" formControlName="dataNascimento">
+            <span class="text-danger" 
+                *ngIf="cadastroFormGrup.get('dataNascimento').errors
+                    && (cadastroFormGrup.get('dataNascimento').touched
+                        || cadastroFormGrup.get('dataNascimento').dirty)">
+                <a>Preencher o campo Data de Nascimento</a>
+            </span>
+        </div>
+
+        <div class="form-group col-4">
+            <label for="telefone">Telefone</label>
+            <input type="text" class="form-control col-12" id="telefone" [(ngModel)]="pessoa.telefone"
+                    placeholder="Telefone" formControlName="telefone"
+                        [ngClass]="{'is-invalid': cadastroFormGrup.get('telefone')?.errors
+                            && (cadastroFormGrup.get('telefone').touched 
+                            || cadastroFormGrup.get('telefone').dirty)}">
+            <span class="text-danger" 
+                *ngIf="cadastroFormGrup.get('telefone')?.errors
+                    && (cadastroFormGrup.get('telefone').touched
+                        || cadastroFormGrup.get('telefone').dirty)">
+                <a>Preencher o campo Telefone</a>
+            </span>
+        </div>
+
+        <div class="form-group col-md-4">
+            <label for="email">E-mail</label>
+            <input type="text" class="form-control" id="email" [(ngModel)]="pessoa.email"
+                placeholder="E-mail" formControlName="email"
+                    [ngClass]="{'is-invalid': cadastroFormGrup.get('email')?.errors
+                        && (cadastroFormGrup.get('email').touched 
+                            || cadastroFormGrup.get('email').dirty)}">
+            <span class="text-danger" 
+                *ngIf="cadastroFormGrup.get('email')?.errors?.required
+                    && (cadastroFormGrup.get('email').touched
+                        || cadastroFormGrup.get('email').dirty)">    
+                <a>Preencher o campo E-mail</a>
+            </span>
+            <span class="text-danger"
+                *ngIf="cadastroFormGrup.get('email')?.errors?.email
+                    && (cadastroFormGrup.get('email').touched
+                        || cadastroFormGrup.get('email').dirty)">
+                <a>Preencha um E-mail valido</a>
+            </span>
+        </div>
+
+        <div class="form-group col-md-4">
+            <label for="cpf">CPF</label>
+            <input type="text" class="form-control" id="cpf" [(ngModel)]="pessoa.cpf"
+                placeholder="CPF" formControlName="cpf"
+                    [ngClass]="{'is-invalid': cadastroFormGrup.get('cpf')?.errors
+                            && (cadastroFormGrup.get('cpf').touched 
+                                || cadastroFormGrup.get('cpf').dirty)}">
+            <span class="text-danger" 
+                *ngIf="cadastroFormGrup.get('cpf')?.errors?.required
+                    && (cadastroFormGrup.get('cpf').touched
+                        || cadastroFormGrup.get('cpf').dirty)">    
+                <a>Preencher o campo CPF</a>
+            </span>
+            <span class="text-danger"
+            *ngIf="cadastroFormGrup.get('cpf')?.errors?.cpf 
+                && (cadastroFormGrup.get('cpf').touched
+                    || cadastroFormGrup.get('cpf').dirty)">
+            <a>CPF invalido</a>                        
+        </span>
+        </div>
+
+        <div class="form-group col-12">
+            <button type="submit" class="btn btn-outline-success mr-2" [disabled]="!cadastroFormGrup.valid">Salvar</button>
+            <button type="submit" [routerLink]="['/pessoa-listar']" class="btn btn-outline-warning">Voltar</button>
+        </div>
+    <div>
+</div>
+

@@ -1,0 +1,94 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "EducaMais.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/EducaMais.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EducaMais.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EducaMais.Domain/1.0.0": {
+      "type": "project",
+      "path": "../EducaMais.Domain/EducaMais.Domain.csproj",
+      "msbuildProject": "../EducaMais.Domain/EducaMais.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "EducaMais.Domain >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Xess\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Xess\\projetos\\testes\\EducaMais\\back-end\\EducaMais.Service\\EducaMais.Service.csproj",
+      "projectName": "EducaMais.Service",
+      "projectPath": "C:\\Users\\Xess\\projetos\\testes\\EducaMais\\back-end\\EducaMais.Service\\EducaMais.Service.csproj",
+      "packagesPath": "C:\\Users\\Xess\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Xess\\projetos\\testes\\EducaMais\\back-end\\EducaMais.Service\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Xess\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "C:\\Users\\Xess\\projetos\\testes\\EducaMais\\back-end\\EducaMais.Domain\\EducaMais.Domain.csproj": {
+              "projectPath": "C:\\Users\\Xess\\projetos\\testes\\EducaMais\\back-end\\EducaMais.Domain\\EducaMais.Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

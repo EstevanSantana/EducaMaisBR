@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "EducaMais.Service/1.0.0": {
+        "dependencies": {
+          "EducaMais.Domain": "1.0.0"
+        },
+        "runtime": {
+          "EducaMais.Service.dll": {}
+        }
+      },
+      "EducaMais.Domain/1.0.0": {
+        "runtime": {
+          "EducaMais.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EducaMais.Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EducaMais.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

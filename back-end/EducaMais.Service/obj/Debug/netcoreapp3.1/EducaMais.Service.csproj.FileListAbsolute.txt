@@ -1,0 +1,12 @@
+C:\Users\Xess\projetos\testes\EducaMais\back-end\EducaMais.Service\bin\Debug\netcoreapp3.1\EducaMais.Service.deps.json
+C:\Users\Xess\projetos\testes\EducaMais\back-end\EducaMais.Service\bin\Debug\netcoreapp3.1\EducaMais.Service.dll
+C:\Users\Xess\projetos\testes\EducaMais\back-end\EducaMais.Service\bin\Debug\netcoreapp3.1\EducaMais.Service.pdb
+C:\Users\Xess\projetos\testes\EducaMais\back-end\EducaMais.Service\bin\Debug\netcoreapp3.1\EducaMais.Domain.dll
+C:\Users\Xess\projetos\testes\EducaMais\back-end\EducaMais.Service\bin\Debug\netcoreapp3.1\EducaMais.Domain.pdb
+C:\Users\Xess\projetos\testes\EducaMais\back-end\EducaMais.Service\obj\Debug\netcoreapp3.1\EducaMais.Service.csprojAssemblyReference.cache
+C:\Users\Xess\projetos\testes\EducaMais\back-end\EducaMais.Service\obj\Debug\netcoreapp3.1\EducaMais.Service.AssemblyInfoInputs.cache
+C:\Users\Xess\projetos\testes\EducaMais\back-end\EducaMais.Service\obj\Debug\netcoreapp3.1\EducaMais.Service.AssemblyInfo.cs
+C:\Users\Xess\projetos\testes\EducaMais\back-end\EducaMais.Service\obj\Debug\netcoreapp3.1\EducaMais.Service.csproj.CoreCompileInputs.cache
+C:\Users\Xess\projetos\testes\EducaMais\back-end\EducaMais.Service\obj\Debug\netcoreapp3.1\EducaMais.Service.csproj.CopyComplete
+C:\Users\Xess\projetos\testes\EducaMais\back-end\EducaMais.Service\obj\Debug\netcoreapp3.1\EducaMais.Service.dll
+C:\Users\Xess\projetos\testes\EducaMais\back-end\EducaMais.Service\obj\Debug\netcoreapp3.1\EducaMais.Service.pdb

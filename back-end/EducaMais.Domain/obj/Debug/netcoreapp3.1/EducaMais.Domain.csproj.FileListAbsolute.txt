@@ -1,0 +1,9 @@
+C:\Users\Xess\projetos\testes\EducaMais\back-end\EducaMais.Domain\bin\Debug\netcoreapp3.1\EducaMais.Domain.deps.json
+C:\Users\Xess\projetos\testes\EducaMais\back-end\EducaMais.Domain\bin\Debug\netcoreapp3.1\EducaMais.Domain.dll
+C:\Users\Xess\projetos\testes\EducaMais\back-end\EducaMais.Domain\bin\Debug\netcoreapp3.1\EducaMais.Domain.pdb
+C:\Users\Xess\projetos\testes\EducaMais\back-end\EducaMais.Domain\obj\Debug\netcoreapp3.1\EducaMais.Domain.AssemblyInfoInputs.cache
+C:\Users\Xess\projetos\testes\EducaMais\back-end\EducaMais.Domain\obj\Debug\netcoreapp3.1\EducaMais.Domain.AssemblyInfo.cs
+C:\Users\Xess\projetos\testes\EducaMais\back-end\EducaMais.Domain\obj\Debug\netcoreapp3.1\EducaMais.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Xess\projetos\testes\EducaMais\back-end\EducaMais.Domain\obj\Debug\netcoreapp3.1\EducaMais.Domain.dll
+C:\Users\Xess\projetos\testes\EducaMais\back-end\EducaMais.Domain\obj\Debug\netcoreapp3.1\EducaMais.Domain.pdb
+C:\Users\Xess\projetos\testes\EducaMais\back-end\EducaMais.Domain\obj\Debug\netcoreapp3.1\EducaMais.Domain.csprojAssemblyReference.cache

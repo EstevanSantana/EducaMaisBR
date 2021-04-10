@@ -1,0 +1,15 @@
+C:\Users\Xess\projetos\testes\EducaMais\back-end\EducaMais.Repository\bin\Debug\netcoreapp3.1\EducaMais.Domain.dll
+C:\Users\Xess\projetos\testes\EducaMais\back-end\EducaMais.Repository\obj\Debug\netcoreapp3.1\EducaMais.Repository.csprojAssemblyReference.cache
+C:\Users\Xess\projetos\testes\EducaMais\back-end\EducaMais.Repository\obj\Debug\netcoreapp3.1\EducaMais.Repository.AssemblyInfoInputs.cache
+C:\Users\Xess\projetos\testes\EducaMais\back-end\EducaMais.Repository\obj\Debug\netcoreapp3.1\EducaMais.Repository.AssemblyInfo.cs
+C:\Users\Xess\projetos\testes\EducaMais\back-end\EducaMais.Repository\bin\Debug\netcoreapp3.1\EducaMais.Repository.deps.json
+C:\Users\Xess\projetos\testes\EducaMais\back-end\EducaMais.Repository\bin\Debug\netcoreapp3.1\EducaMais.Repository.runtimeconfig.json
+C:\Users\Xess\projetos\testes\EducaMais\back-end\EducaMais.Repository\bin\Debug\netcoreapp3.1\EducaMais.Repository.runtimeconfig.dev.json
+C:\Users\Xess\projetos\testes\EducaMais\back-end\EducaMais.Repository\bin\Debug\netcoreapp3.1\EducaMais.Repository.dll
+C:\Users\Xess\projetos\testes\EducaMais\back-end\EducaMais.Repository\bin\Debug\netcoreapp3.1\EducaMais.Repository.pdb
+C:\Users\Xess\projetos\testes\EducaMais\back-end\EducaMais.Repository\bin\Debug\netcoreapp3.1\EducaMais.Domain.pdb
+C:\Users\Xess\projetos\testes\EducaMais\back-end\EducaMais.Repository\obj\Debug\netcoreapp3.1\EducaMais.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Xess\projetos\testes\EducaMais\back-end\EducaMais.Repository\obj\Debug\netcoreapp3.1\EducaMais.Repository.csproj.CopyComplete
+C:\Users\Xess\projetos\testes\EducaMais\back-end\EducaMais.Repository\obj\Debug\netcoreapp3.1\EducaMais.Repository.dll
+C:\Users\Xess\projetos\testes\EducaMais\back-end\EducaMais.Repository\obj\Debug\netcoreapp3.1\EducaMais.Repository.pdb
+C:\Users\Xess\projetos\testes\EducaMais\back-end\EducaMais.Repository\obj\Debug\netcoreapp3.1\EducaMais.Repository.genruntimeconfig.cache

@@ -1,0 +1,32 @@
+
+<div class="container">
+    <h3>Lista de pessoas</h3>
+    <hr>
+    <table class="table table-striped">
+        <thead class="thead-dark">
+            <tr>
+                <th>#</th>
+                <th>Nome</th>
+                <th>Data</th>
+                <th>Email</th>
+                <th>Telefone</th>
+                <th>Cpf</th>
+                <th>Opções</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let item of pessoas">
+                <th></th>    
+                <th>{{ item.nome }}</th>    
+                <th>{{ item.dataNascimento | date}}</th>    
+                <th>{{ item.email }}</th>    
+                <th>{{ item.telefone }}</th>    
+                <th>{{ item.cpf }}</th>    
+                <th>
+                    <button type="button" (click)="detalhe(item.id)" class="btn btn-info btn-sm mr-2">Detalhe</button>
+                </th>            
+            </tr>
+        </tbody>
+    </table>
+</div>
+

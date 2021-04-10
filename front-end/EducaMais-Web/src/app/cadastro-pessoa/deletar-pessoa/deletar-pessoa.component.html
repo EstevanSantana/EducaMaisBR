@@ -1,0 +1,28 @@
+
+<div class="container" style="margin-top: 20px;">
+    <h3>Detalhe de pessoa</h3>
+    <hr>
+    <form class="form-row" (ngSubmit)="deletar()" >
+        <div class="form-group col-12">
+            <label><strong>Nome</strong></label>
+            <label>&nbsp; {{ pessoa.nome }}</label>
+            <br>
+            <label><strong>Data de Nascimento: </strong></label>
+            <label>&nbsp; {{ pessoa.dataNascimento | date }}</label>
+            <br>
+            <label><strong>Email:</strong> </label>
+            <label>&nbsp; {{ pessoa.email }}</label>
+            <br/>
+            <label><strong>Telefone:</strong> </label>
+            <label>&nbsp; {{ pessoa.telefone }}</label>
+            <br/>
+            <label><strong>CPF:</strong> </label>
+            <label>&nbsp; {{ pessoa.cpf }}</label>   
+        </div>
+        <div class="form-group col-12">
+            <hr/>   
+            <button type="submit" class="btn btn-danger btn-md mr-2">Deletar</button>
+            <button type="button" [routerLink]="['/pessoa-listar']" class="btn btn-warning btn-md mr-2">Voltar</button>
+        </div>
+    </form>        
+<div>
